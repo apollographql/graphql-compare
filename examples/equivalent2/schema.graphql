@@ -1,0 +1,7 @@
+type Query {
+  start: T!
+}
+
+type T {
+  f: Int!
+}

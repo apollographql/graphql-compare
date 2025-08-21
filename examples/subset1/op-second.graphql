@@ -1,0 +1,8 @@
+query {
+  start {
+      f
+      ... on J {
+        g
+      }
+  }
+}

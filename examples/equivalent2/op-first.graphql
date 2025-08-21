@@ -1,0 +1,6 @@
+query($a: Boolean!, $b: Boolean!) {
+  start {
+    f @include(if: $a) @skip(if: $b)
+    f @include(if: $b)
+  }
+}

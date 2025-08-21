@@ -1,0 +1,10 @@
+query {
+  start {
+    ... on P {
+      f
+    }
+    ... on Q {
+      g
+    }
+  }
+}

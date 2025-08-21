@@ -1,0 +1,20 @@
+type Query {
+  start: I!
+}
+
+interface I {
+  f: Int!
+}
+
+interface J {
+  g: Int!
+}
+
+type P implements I {
+  f: Int!
+}
+
+type Q implements I & J {
+  f: Int!
+  g: Int!
+}
