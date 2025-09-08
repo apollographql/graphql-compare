@@ -25,3 +25,10 @@ cargo run -- <schema> <query1> <query2>
 ```
 
 The result of comparison will be printed to stdout.
+
+## Licensing
+
+Source code in this repository is covered by the Elastic License 2.0. The
+default throughout the repository is a license under the Elastic License 2.0,
+unless a file header or a license file in a subdirectory specifies another
+license. [See the LICENSE](./LICENSE) for the full license text.
